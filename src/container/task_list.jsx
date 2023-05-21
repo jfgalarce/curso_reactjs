@@ -3,8 +3,6 @@ import React from 'react';
 import { Task } from '../../models/taks.class';
 import { LEVELS } from '../../models/leves.enum';
 import TaskComponent from '../pure/task';
-
-
 const TaskListComponent = () => {
     
     const defaultTask = new Task('Example','Deafult Description', false, LEVELS.NORMAL);
