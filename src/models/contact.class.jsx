@@ -11,3 +11,4 @@ export class Contact {
     this.conectado = conectado;
   }
 }
+// pure
